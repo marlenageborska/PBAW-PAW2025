@@ -21,6 +21,7 @@ if ( ! (isset($kwota) && isset($czas)&& isset($oprocentowanie) )) {
 	$messages [] = 'Błędne wywołanie aplikacji. Brak jednego z parametrów.';
 }
 
+
 // sprawdzenie, czy potrzebne wartości zostały przekazane
 if ( $kwota == "") {
 	$messages [] = 'Nie podano kwoty kredytu';

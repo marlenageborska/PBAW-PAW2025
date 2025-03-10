@@ -7,6 +7,7 @@
 </head>
 <body background='tlo.jpg'>
 
+
 <form action="<?php print(_APP_URL);?>/apP1calc.php" method="post">
 	<label for="id_kwota">Kwota kredytu </label>
 	<input id="id_kwota" type="text" name="kwota" value="<?php if(isset($kwota)) print($kwota); ?>" /><br />
